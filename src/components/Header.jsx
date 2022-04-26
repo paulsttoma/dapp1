@@ -1,12 +1,12 @@
-import React from 'react'
-import { Typography } from '@mui/material'
+import React from "react";
+import { Typography } from "@mui/material";
 
 function Header() {
   return (
-    <div>
-        <Typography> Pauls Toma was here</Typography>
-    </div>
-  )
+    <Container2>
+      <Typography> Pauls Toma was here</Typography>
+    </Container2>
+  );
 }
 
-export default Header
+export default Header;
