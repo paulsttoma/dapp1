@@ -1,9 +1,10 @@
-import './App.css';
+import "./App.css";
+import Contain from "./components/Contain";
 
 function App() {
   return (
-    <div className="App-header">
-      <p> Hi </p>
+    <div>
+      <Contain> </Contain>;
     </div>
   );
 }
