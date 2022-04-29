@@ -1,11 +1,10 @@
 import "./App.css";
-import Contain from "./components/Contain";
 
 function App() {
   return (
     <div>
-      <Contain> </Contain>;
-    </div>
+      <p> Hello World </p>
+      </div>
   );
 }
 export default App;
