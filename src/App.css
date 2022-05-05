@@ -1,18 +1,16 @@
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  color: white;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
+.Container {
 
-.Navigation { 
+  width: 95vw;
+  height: 60vh;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  border: 1px;
+  border-color: blueviolet;
 
-  color: black;
-  background-color: white;
-  text-align: center;
 
-}
+
+
+
+  }
+  
+  
