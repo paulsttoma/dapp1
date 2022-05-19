@@ -8,7 +8,6 @@ li, a, button {
 
   font-family: 'Courier New', Courier, monospace;
   font-weight: 500;
-  
   font-size: 18px;
   color: white;
   text-decoration: none;
@@ -19,14 +18,14 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 10%;
-  background-color: #659DBD;
+  padding: 10px 10%;
+  background-color: #486a94;
   
 }
 
 .logo{
   cursor: pointer;
-  margin-right: 32px;
+  margin-right: 60px;
   margin-left: -65px;
 }
 
@@ -38,6 +37,7 @@ header{
   display: inline-block;
   padding: 0px 20px;
   margin-left: 10px;
+  
 }
 
 .nav_link li a {
@@ -52,7 +52,7 @@ header{
 
 button{
   padding: 9px 25px;
-  background-color: #FBEEc1;
+  background-color: #ffffff;
   opacity: 1;
   border: none;
   border-radius: 50px;
@@ -60,7 +60,8 @@ button{
   transition: all 0.3s ease 0s;
   color: black;
   margin-left: 100px;
-  margin-right: 10px;
+  margin-right: -60px;
+  width: 150px;
 }
 
 button:hover{

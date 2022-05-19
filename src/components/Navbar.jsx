@@ -1,5 +1,5 @@
 import React from "react";
-let Logo = require("../images/ss.png")
+let Logo = require("../images/eth3.png")
 
 
 function Navbar() {
