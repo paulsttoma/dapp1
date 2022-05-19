@@ -2,15 +2,15 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background-color: dimgrey;
 }
 
 li, a, button {
 
   font-family: 'Courier New', Courier, monospace;
   font-weight: 500;
-  font-size: 16px;
-  color: azure;
+  
+  font-size: 18px;
+  color: white;
   text-decoration: none;
 
 }
@@ -19,12 +19,15 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%;
+  padding: 15px 10%;
+  background-color: #659DBD;
   
 }
 
 .logo{
   cursor: pointer;
+  margin-right: 32px;
+  margin-left: -65px;
 }
 
 .nav_link{
@@ -34,6 +37,7 @@ header{
 .nav_link li{
   display: inline-block;
   padding: 0px 20px;
+  margin-left: 10px;
 }
 
 .nav_link li a {
@@ -48,7 +52,7 @@ header{
 
 button{
   padding: 9px 25px;
-  background-color: khaki;
+  background-color: #FBEEc1;
   opacity: 1;
   border: none;
   border-radius: 50px;

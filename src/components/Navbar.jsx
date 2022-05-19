@@ -2,7 +2,6 @@ import React from "react";
 let Logo = require("../images/ss.png")
 
 
-
 function Navbar() {
   return (
     <div>
