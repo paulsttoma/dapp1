@@ -1,10 +1,15 @@
 import React from "react";
 import "./App.css";
 import "./index.css";
+import Navbar from "./components/Navbar";
+
 
 function App() {
-  return <div className="Container">
-    <div className="gg"> Hello Seville</div>
+  return <div>
+
+    <Navbar/>
+  
+    
   </div>;
 }
 export default App;
