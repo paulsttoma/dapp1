@@ -18,14 +18,14 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 10%;
+  padding: 3px 10%;
   background-color: #486a94;
   
 }
 
 .logo{
   cursor: pointer;
-  margin-right: 60px;
+  margin-right: 65px;
   margin-left: -65px;
 }
 
@@ -59,7 +59,7 @@ button{
   cursor: pointer;
   transition: all 0.3s ease 0s;
   color: black;
-  margin-left: 100px;
+  margin-left: 120px;
   margin-right: -60px;
   width: 150px;
 }
