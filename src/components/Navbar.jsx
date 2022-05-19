@@ -10,10 +10,10 @@ function Navbar() {
           <img className="logo" src={Logo} alt="logo" />
         <nav>
           <ul className="nav_link">
-            <li><a href="www.google.com">Etherscan</a></li>
-            <li><a href="www.google.com">Twitter</a></li>
-            <li><a href="www.google.com">Whitepaper</a></li>
-            <li><a href="www.google.com">Opensea</a></li>
+            <li><a href="www.Etherscan.io">Etherscan</a></li>
+            <li><a href="www.twitter.com">Twitter</a></li>
+            <li><a href="www.youtube.com">Whitepaper</a></li>
+            <li><a href="www.opensea.io">Opensea</a></li>
           </ul>
         </nav>
         <a className="" href="www.google.com"><button>Mint</button></a>
