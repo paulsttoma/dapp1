@@ -1,22 +1,16 @@
 import React from "react";
-let Logo = require("../images/eth.png")
-
+import { Navbarstyle } from "./Navbar.styles";
 
 function Navbar() {
   return (
     <div>
-      <header>
-          <img className="logo" src={Logo} alt="logo" />
-        <nav>
-          <ul className="nav_link">
-            <li><a href="www.Etherscan.io">Etherscan</a></li>
-            <li><a href="www.twitter.com">Twitter</a></li>
-            <li><a href="www.youtube.com">Whitepaper</a></li>
-            <li><a href="www.opensea.io">Opensea</a></li>
-          </ul>
-        </nav>
-        <a className="" href="www.google.com"><button>Mint</button></a>
-      </header>
+      <Navbarstyle>
+        <div>
+          <button> Connect Wallet </button>
+          <p> Hello </p>
+          <h1> TEster </h1>
+        </div>
+      </Navbarstyle>
     </div>
   );
 }
