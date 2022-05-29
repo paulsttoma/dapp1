@@ -8,7 +8,6 @@ import { useState } from "react";
 function Navbar() {
 
   const Web3 = require("web3");
-  const web3 = new Web3(window.ethereum);
   const [addr, setAddr] = useState("");
 
   function metamask() {
