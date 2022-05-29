@@ -1,24 +1,34 @@
 import styled from "styled-components";
 
 export const Navbarstyle = styled.div`
-    
-    color: blue;
+  * {
+    color: #8c5e54;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 8%;
+    left: 80%;
+  }
 
-    .Nav{
+  button {
+    color: #ffffff;
+    background-color: #f6851b;
+    padding: 20px;
+    cursor: pointer;
+    border: none;
+    font-weight: bolder;
+    font-size: large;
+  }
 
-        color: aquamarine;
-    }
+  img{
+      position: absolute;
+      top:10%;
+      left:10%
+  }
 
-    p{
-        color: indigo;
-    }
+  p{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-weight: bold;
 
-    h1{
-        color: darkgreen
-    }
-
-`
+  }
+`;
